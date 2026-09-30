@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px 5px 0px 0px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+   font-weight: 900;
+
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+.links a{
+color: white;
+text-decoration: none ;
+}
+
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    gap: 15px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 28%;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.box h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.box p{
+   color: white;
+   line-height: 1.5rem;
+}
+.box a{
+    display: inline-block;
+    margin-top: 0px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.started{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.started svg{
+    width: 20px;
+    height: 20px;
+    display: block;
+    
+}
+.box:hover{
+    background-color: rgb(190, 178, 178);
+    border: 2px solid rgb(250, 240, 240);
+}
